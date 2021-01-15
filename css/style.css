@@ -25,7 +25,32 @@ body {
     right: 0;
     position: fixed;
     margin: 0 auto; }
+  .splash .svg2 {
+    height: 15vh;
+    width: auto;
+    z-index: 400 !important;
+    top: 40vh;
+    left: 4vw;
+    right: 0;
+    position: fixed;
+    margin: 0 auto;
+    opacity: .75;
+    animation-name: blur;
+    animation-duration: 5s; }
 
+@keyframes blur {
+  0% {
+    filter: blur(2px); }
+  20% {
+    filter: blur(15px); }
+  40% {
+    filter: blur(2px); }
+  60% {
+    filter: blur(15px); }
+  80% {
+    filter: blur(2px); }
+  100% {
+    filter: blur(15px); } }
 .up {
   position: absolute;
   right: 15vw; }
