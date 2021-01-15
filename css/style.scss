@@ -17,18 +17,25 @@ body{
   height: 0vh;
   width: 0vw;
   animation-name: splash;
-  animation-duration: 2s;
+  animation-duration: 5s;
   opacity: 0;
 div{
   height:100%;
   width: 100%;
 }
-  video{
-    height: 50vh;
+  .svg1{
+    height: 15vh;
     width: auto;
-    z-index: 500;
-    top: 10vh;
-    position: absolute;
+    z-index: 500!important;
+    top: 40vh;
+    bottom: 42.5vw;
+    left: 0;
+    right: 0;
+    position: fixed;
+    margin: 0 auto;
+  }
+  .svg2{
+    
   }
 }
 
@@ -66,6 +73,28 @@ div{
   }
 }
 
+.up-3{
+  position: absolute;
+  left: 8vw;
+  top: 12vh;
+
+      width: 5vw;
+      height: 5vw;
+  img{
+    width: 5vw;
+z-index: 0;
+  }
+}
+
+.down-3{
+  position: absolute;
+  right: 12.5vw;
+  bottom: 5vh;
+  img{
+    width: 5vw;
+  }
+}
+
 @keyframes splash{
   0% {
   width: 100vw;
@@ -88,7 +117,7 @@ opacity: 0;
 }
 
 header{
-  z-index: 100;
+  z-index: 200;
   position: fixed;
   background-color: rgba(255, 255, 255, .85);
   height: 60px;
@@ -163,6 +192,15 @@ position: relative;
       max-width: 100vw;
 }
 
+
+.superscript{
+  font-size: 10px;
+  font-family: gotham!important;
+  font-style: normal;
+}
+
+
+
 footer{
   z-index: 100;
   position: fixed;
@@ -217,6 +255,9 @@ footer{
   position: relative;
   height: 100vh;
 
+p{
+  font-size: 14px;
+}
 
   .home-container{
     margin-top: 10vh;
