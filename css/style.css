@@ -202,7 +202,7 @@ footer {
   list-style: none;
   float: left;
   width: auto;
-  margin-left: 8vw; }
+  margin-left: 5vw; }
   .footer-sm li {
     float: left;
     padding-left: 10px;
@@ -696,5 +696,42 @@ section {
   line-height: 75px;
   font-family: gotham;
   font-weight: bold; }
+
+/* PORTFOLIO PAGE */
+aside {
+  margin-top: 15vh;
+  border-right: 2px solid #f1f1f1;
+  height: 100vh;
+  position: fixed; }
+  aside h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: gotham;
+    margin-bottom: 55px; }
+  aside h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: gotham; }
+  aside a {
+    margin: 0;
+    float: left;
+    padding: 10px;
+    font-family: gotham;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    width: 50%;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 55px; }
+  aside #portfolio-active {
+    background-color: #00AC98;
+    color: white; }
+  aside a:hover {
+    color: grey; }
+  aside label {
+    margin-left: 15px; }
 
 /*# sourceMappingURL=style.css.map */

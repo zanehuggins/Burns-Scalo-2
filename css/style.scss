@@ -267,7 +267,7 @@ footer{
   list-style: none;
   float: left;
   width: auto;
-  margin-left: 8vw;
+  margin-left: 5vw;
   li{
     float: left;
     padding-left: 10px;
@@ -911,4 +911,52 @@ h2{
  line-height: 75px;
  font-family: gotham;
  font-weight: bold;
+}
+
+
+
+/* PORTFOLIO PAGE */
+aside{
+
+  margin-top: 15vh;
+  border-right: 2px solid #f1f1f1;
+  height: 100vh;
+  position: fixed;
+  h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: gotham;
+      margin-bottom: 55px;
+
+  }
+  h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  font-family: gotham;
+  }
+  a{
+    margin: 0;
+    float: left;
+    padding: 10px;
+    font-family: gotham;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    width: 50%;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+      margin-bottom: 55px;
+  }
+  #portfolio-active{
+background-color: $turquoise;
+color: white;
+  }
+  a:hover{
+    color: grey;
+  }
+label{
+  margin-left: 15px;
+}
 }
