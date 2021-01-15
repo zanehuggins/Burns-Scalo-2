@@ -757,10 +757,13 @@ aside {
   aside .update:hover {
     color: white; }
 
+.container-p {
+  padding: 5px;
+  float: left !important; }
+
 .portfolio-list {
   box-shadow: 0px 0px 5px #DBDADA;
-  float: left;
-  margin: 10px; }
+  float: left; }
   .portfolio-list a {
     text-decoration: none; }
   .portfolio-list img {
