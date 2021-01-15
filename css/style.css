@@ -594,6 +594,15 @@ section {
       padding: 10px;
       color: white;
       text-decoration: none; }
+  .section-even .plus {
+    position: absolute;
+    left: 0.75vw !important;
+    width: 5vw !important;
+    top: 20vh;
+    background-color: rgba(255, 255, 255, 0) !important; }
+    .section-even .plus img {
+      width: 100%;
+      height: auto; }
 
 .grid-box-1 {
   height: 70px;
@@ -611,6 +620,12 @@ section {
 .section-odd {
   position: relative;
   height: 100vh; }
+  .section-odd .plus {
+    position: absolute;
+    right: 0.75vw !important;
+    width: 5vw !important;
+    top: 20vh;
+    background-color: rgba(255, 255, 255, 0) !important; }
   .section-odd .content-container {
     position: absolute;
     top: 27vh;

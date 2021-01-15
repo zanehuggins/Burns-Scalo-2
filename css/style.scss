@@ -778,6 +778,19 @@ h3{
 
     }
   }
+
+  .plus{
+    position: absolute;
+    left: .75vw!important;
+    width: 5vw!important;
+    top: 20vh;
+
+        background-color: rgba(255,255,255,0)!important;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
 }
 
 
@@ -798,9 +811,20 @@ h3{
 width: 47.5vw;
 }
 
+
 .section-odd{
   position: relative;
   height: 100vh;
+
+  .plus{
+    position: absolute;
+    right: .75vw!important;
+    width: 5vw!important;
+    top: 20vh;
+    background-color: rgba(255,255,255,0)!important;
+}
+
+
   .content-container{
     position: absolute;
     top: 27vh;
