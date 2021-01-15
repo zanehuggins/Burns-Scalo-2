@@ -333,6 +333,22 @@ footer {
     bottom: 0;
     right: 0; }
 
+.photo-container {
+  overflow: hidden;
+  position: relative; }
+  .photo-container img {
+    margin-top: -20%;
+    width: 100%;
+    top: 0; }
+
+.photo-container-2 {
+  overflow: hidden;
+  position: relative; }
+  .photo-container-2 img {
+    margin-top: -10%;
+    width: 100%;
+    top: 0; }
+
 .fold {
   margin-top: 0 !important;
   padding: 0 !important;
