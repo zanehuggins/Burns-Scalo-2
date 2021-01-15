@@ -936,11 +936,11 @@ h2{
 
 /* PORTFOLIO PAGE */
 aside{
-
   margin-top: 15vh;
   border-right: 2px solid #f1f1f1;
   height: 100vh;
-  position: fixed;
+  float: left;
+
   h2{
     font-size: 30px;
     font-weight: bold;
@@ -978,4 +978,48 @@ color: white;
 label{
   margin-left: 15px;
 }
+.update{
+  width: 100%;
+  margin-top: 55px;
+  background-color: $orange;
+  color: white;
+}
+.update:hover{
+  color: white;
+}
+}
+
+
+.portfolio-list{
+  box-shadow: 0px 0px 5px #DBDADA;
+  float: left;
+margin: 10px;
+  a{
+    text-decoration: none;
+  }
+  img{
+    width: 100%;
+  }
+  h3{
+    font-family: gotham;
+    color: $black;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 25px;
+    margin: 0;
+  }
+  p{
+    font-size: 14px;
+    font-family: gotham;
+    padding-left: 15px;
+    color: $black;
+    padding-bottom: 15px;
+    margin: 0;
+  }
+}
+
+main{
+  float: left!important;
+    margin-top: 15vh;
+    padding: 2.5%;
 }
