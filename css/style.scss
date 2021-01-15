@@ -283,9 +283,89 @@ footer{
   font-family: adelle;
   font-style: italic;
 }
+.adelle-2{
+  font-family: adelle;
+  font-style: italic;
+  font-size: 16px;
+}
+
+#section-bottom{
+  position: relative;
+  height: 100vh;
+  z-index: 100;
+  margin-bottom: 30px;
+
+  p{
+    font-size: 14px;
+  }
+
+    .home-container{
+      margin-top: 10vh;
+      height: 45vh;
+      overflow: hidden;
+      float: left;
+      z-index: 10;
+      h2{
+        margin-top: 11vh;
+        font-family: gotham;
+        font-weight: bold;
+      }
+      div{
+        float: left;
+      }
+    }
+    img{
+      float: left;
+      z-index: 10;
+    }
+    .home-container-2{
+      margin-top: 0;
+      height: 45vh;
+      overflow: hidden;
+      float: left;
+      z-index: 10;
+      h2{
+        margin-top: 6vh;
+        font-family: gotham;
+        font-weight: bold;
+      }
+      div{
+        float: left;
+      }
+    }
+    img{
+      float: left;
+      z-index: 10;
+    }
+
+    .background-square{
+      position: absolute;
+      height: 77.5vh;
+      width: 85vw;
+      background-color: #f1f1f1;
+      z-index: -1;
+      top: 15vh;
+      bottom: 0;
+      left: 5vw;
+      right: 0;
+    }
+
+    .background-color{
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      background-color: white;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      right: 0;
+    }
+}
+
 #home-content-1{
   position: relative;
   height: 100vh;
+
 
 p{
   font-size: 14px;
@@ -523,6 +603,11 @@ ul{
       padding-top: 10px;
     }
   }
+}
+
+#sectionbottom{
+  height: 100vh!important;
+  background-color: white;
 }
 
 .brokerage{
