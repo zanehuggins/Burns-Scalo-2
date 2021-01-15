@@ -783,7 +783,7 @@ aside {
     padding-bottom: 15px;
     margin: 0; }
 
-main {
+.main {
   float: left !important;
   margin-top: 15vh;
   padding: 2.5%; }
